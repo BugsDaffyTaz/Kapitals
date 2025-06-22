@@ -84,14 +84,14 @@ The correct answer is Nouakchott.
 
 ## 🗂️ To-Do:
 
-* [ ] Add MCQ mode
+* [ ] Add an MCQ mode
 * [ ] CustomTkinter GUI/Merge with other technologies
 * [ ] CSV session logging
 * [ ] Leaderboard system
 
 ---
-
-## 🙌 Author: 
-Made by **\[BugsDaffyTaz]**
+## Author:
+Made by **[BugsDaffyTaz]**  
+(also this is one of my first projects so cut me some slack and gimme good feedback)
 
 ---
