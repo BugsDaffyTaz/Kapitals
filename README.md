@@ -1,4 +1,4 @@
-# **🧠 Capitals Quiz Game**
+# **🧠 Guess the Capital Game**
 
 A fun, beginner-friendly command-line quiz game to test your knowledge of world capitals! Built in Python.
 
