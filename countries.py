@@ -1,3 +1,4 @@
+
 import random
 import time
 from country_data import country_capital
@@ -76,6 +77,9 @@ def capitals_game():
                 print("✅ Great going, that's correct!")
 
             elif retry.lower() == "1":
+                end_time = time.time()
+                total_time = round(end_time - start_time, 2)
+
                 print(f"\nYour final score: {score}/{questions_attempted}")
                 print(f"\nTime taken: ", {total_time})
                 print(f"\nQuestions attempted: {questions_attempted}")
@@ -88,7 +92,7 @@ def capitals_game():
                 print(f"❌ That's the wrong answer. The correct answer is {correct_capital.title()}.")
         else: 
             wrong_ans +=1
-            print("❌ That's the wrong answer. The correct answer is {correct_capital.title()}.")
+            print(f"❌ That's the wrong answer. The correct answer is {correct_capital.title()}.")
                 
 
 ##### file output run ######
@@ -96,5 +100,3 @@ def capitals_game():
 
 if __name__ == "__main__":
     capitals_game()
-
-
